@@ -18,28 +18,37 @@
     <title>Premium Air</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <section class="navbar">
-      <h1 class="navbar-title">Premium Air</h1>
-      <div class="navbar-navlinks">
-        <a href="">Features</a>
-        <a href="">How it works</a>
-        <a href="">Pricing</a>
-      </div>
-    </section>
-    <!-- Header -->
+    <!-- Header and NavBar -->
     <header>
-      <h2>Handcrafted, locally sourced air.</h2>
-      <form action="">
-        <input type="email" name="email" id="email" required />
-        <button type="submit">Get Started</button>
-      </form>
+      <nav class="navbar" id="navbar">
+        <img src="./assets/images/PA-logo.png" />
+        <div class="navbar-navlinks">
+          <a href="#features" class="navlink">Features</a>
+          <a href="#how-it-works" class="navlink">How it works</a>
+          <a href="#pricing" class="navlink">Pricing</a>
+        </div>
+      </nav>
     </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <h2>Handcrafted, locally sourced air.</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="johnappleseed@gmail.com"
+          required
+        />
+        <button type="submit" id="submit">Get Started</button>
+      </form>
+    </section>
 
     <!-- Main -->
     <main>
       <!-- Selling Points -->
-      <div class="selling-points">
+      <div class="selling-points" id="features">
         <div class="selling-point1">
           <i class="fa-solid fa-moon"></i>
           <h3>Harvested during full moons</h3>
@@ -63,9 +72,10 @@
         </div>
       </div>
 
-      <div class="how-it-works" id="How-it-works">
+      <div class="how-it-works" id="how-it-works">
         <h2>How it works</h2>
         <iframe
+          id="video"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/-LWo7DEzbpM"
@@ -76,18 +86,30 @@
         ></iframe>
       </div>
       <!-- Pricing -->
-      <div class="pricing">
+      <div class="pricing" id="pricing">
         <div class="pricing1">
           <h3>Basic</h3>
-          <p>9.99</p>
+          <h4>9.99</h4>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
         </div>
         <div class="pricing2">
           <h3>Standard</h3>
-          <p>19.99</p>
+          <h4>19.99</h4>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
         </div>
         <div class="pricing3">
           <h3>Pro</h3>
-          <p>29.99</p>
+          <h4>29.99</h4>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
         </div>
       </div>
     </main>
