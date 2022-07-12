@@ -4,8 +4,104 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ebb5e2596c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>Product Landing Page</title>
+    <title>Premium Air</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <section class="navbar">
+      <h1 class="navbar-title">Premium Air</h1>
+      <div class="navbar-navlinks">
+        <a href="">Features</a>
+        <a href="">How it works</a>
+        <a href="">Pricing</a>
+      </div>
+    </section>
+    <!-- Header -->
+    <header>
+      <h2>Handcrafted, locally sourced air.</h2>
+      <form action="">
+        <input type="email" name="email" id="email" required />
+        <button type="submit">Get Started</button>
+      </form>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Selling Points -->
+      <div class="selling-points">
+        <div class="selling-point1">
+          <i class="fa-solid fa-moon"></i>
+          <h3>Harvested during full moons</h3>
+          <p>
+            To craft and capture the freshest premium air we collect it during
+            full moon nights.
+          </p>
+        </div>
+        <div class="selling-point2">
+          <i class="fa-solid fa-mountain-sun"></i>
+          <h3>Located deep in the mountain valleys</h3>
+          <p>
+            Our location in the deep mountain valleys has prime access to the
+            best air.
+          </p>
+        </div>
+        <div class="selling-point3">
+          <i class="fa-solid fa-car-on"></i>
+          <h3>Same day delivery</h3>
+          <p>Order now and get your Premium Air today!</p>
+        </div>
+      </div>
+
+      <div class="how-it-works" id="How-it-works">
+        <h2>How it works</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/-LWo7DEzbpM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <!-- Pricing -->
+      <div class="pricing">
+        <div class="pricing1">
+          <h3>Basic</h3>
+          <p>9.99</p>
+        </div>
+        <div class="pricing2">
+          <h3>Standard</h3>
+          <p>19.99</p>
+        </div>
+        <div class="pricing3">
+          <h3>Pro</h3>
+          <p>29.99</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="">About Us</a>
+        <a href="">Contact</a>
+      </div>
+      <p>
+        Website made by
+        <a href="https://www.github.com/lorenzozemp">Lorenzo Zemp</a>
+      </p>
+    </footer>
+  </body>
 </html>
