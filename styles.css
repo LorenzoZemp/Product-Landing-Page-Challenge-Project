@@ -5,7 +5,12 @@
 html {
   box-sizing: border-box;
   font-size: 24px;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
 }
 
 header {
@@ -27,8 +32,8 @@ nav {
 }
 
 .navbar img {
-  width: 10rem;
-  height: 6rem;
+  width: 9rem;
+  height: 5rem;
   object-fit: cover;
 }
 
