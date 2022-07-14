@@ -14,17 +14,14 @@ body {
 }
 
 header {
-  margin: 0;
   position: sticky;
   top: 0;
-  left: 0%;
   background-color: white;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav {
-  margin: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,7 +41,7 @@ a {
 }
 
 .navbar a {
-  margin: 0 2rem 0 4rem;
+  margin: 0 2rem 0 2rem;
 }
 
 a:hover {
@@ -77,10 +74,6 @@ form button {
   color: white;
   border: 0;
   border-radius: 2px;
-}
-
-form button:hover {
-  text-decoration: underline;
 }
 
 form button:hover {
